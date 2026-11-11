@@ -1,0 +1,13 @@
+variabile,IV,n_fasce,classificazione
+RevolvingUtilizationOfUnsecuredLines,1.0667269661099414,4,sospetta
+NumberOfTimes90DaysLate,0.8774006572029309,4,sospetta
+NumberOfTime30-59DaysPastDueNotWorse,0.7551955068668385,4,sospetta
+NumberOfTime60-89DaysPastDueNotWorse,0.600014764787244,4,sospetta
+age,0.25916500575983065,10,media
+MonthlyIncome,0.06608377751300984,2,debole
+NumberRealEstateLoansOrLines,0.055351264900239824,4,debole
+NumberOfOpenCreditLinesAndLoans,0.04866929402933152,6,debole
+NumberOfDependents,0.034448611877831714,5,debole
+DebtRatio,0.009104736488333508,2,non predittiva
+MonthlyIncome_mancante,0.007741194575319677,2,non predittiva
+NumberOfDependents_mancante,0.0036817762593148113,2,non predittiva

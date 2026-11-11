@@ -1,0 +1,5 @@
+quartile_reddito,reddito_minimo,reddito_massimo,numero_clienti,numero_insolventi,tasso_default_pct
+1,0.0,3700.0,37500,3554,9.48
+2,3700.0,5500.0,37500,2366,6.31
+3,5500.0,7400.0,37500,2325,6.2
+4,7400.0,3008750.0,37499,1781,4.75

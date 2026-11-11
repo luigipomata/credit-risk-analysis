@@ -1,0 +1,7 @@
+fascia_prestiti_aperti,minimo,massimo,numero_clienti,numero_insolventi,tasso_default_pct
+0-4,0,4,33659,3103,9.22
+5-9,5,9,63706,3590,5.64
+10-14,10,14,35163,2096,5.96
+15-19,15,19,12322,861,6.99
+20-24,20,24,3673,271,7.38
+25+,25,58,1476,105,7.11

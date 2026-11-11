@@ -1,0 +1,78 @@
+## Dati pesanti
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Formati dati/export pesanti ovunque nel progetto
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.zip
+*.7z
+*.sqlite
+*.sqlite3
+*.db
+
+# Report Power BI: il modello dati contiene il dataset Kaggle, resta solo in locale
+*.pbix
+
+## Eccezioni: piccoli CSV aggregati per la dashboard (tracciati volutamente)
+!data/processed/tasso_default_per_fascia_reddito.csv
+!data/processed/tasso_default_per_fascia_eta.csv
+!data/processed/tasso_default_per_prestiti_aperti.csv
+!data/processed/shap_importanza_globale.csv
+!data/processed/iv_per_variabile.csv
+!excel/scorecard_calcolatore.xlsx
+
+## Credenziali / segreti
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+credentials.json
+secrets.yaml
+secrets.yml
+config.local.*
+kaggle.json
+service-account*.json
+
+## Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+## Jupyter
+*.nbconvert.ipynb
+
+## Node (eventuale dashboard web)
+node_modules/
+
+## IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+# File di blocco di Office (creati mentre un file Excel/Word è aperto)
+~$*

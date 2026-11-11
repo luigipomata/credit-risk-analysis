@@ -1,0 +1,13 @@
+rank,variabile,mean_abs_shap_value
+1,RevolvingUtilizationOfUnsecuredLines,0.80050546
+2,NumberOfTime30-59DaysPastDueNotWorse,0.36322892
+3,NumberOfTimes90DaysLate,0.29461893
+4,age,0.22051772
+5,NumberOfTime60-89DaysPastDueNotWorse,0.17564197
+6,NumberOfOpenCreditLinesAndLoans,0.16448404
+7,DebtRatio,0.14772832
+8,NumberRealEstateLoansOrLines,0.11611192
+9,MonthlyIncome,0.11477263
+10,NumberOfDependents,0.045756273
+11,MonthlyIncome_mancante,0.031229714
+12,NumberOfDependents_mancante,0.00394659
